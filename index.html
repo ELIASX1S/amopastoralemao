@@ -5,13 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Método Pastor Alemão Obediente | Página Oficial</title>
   <meta name="description" content="Transforme seu Pastor Alemão em um cão obediente, equilibrado e confiável com um método prático e passo a passo." />
-  <meta name="theme-color" content="#0b0b0b" />
+  <meta name="theme-color" content="#090909" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Método Pastor Alemão Obediente" />
+  <meta property="og:description" content="Treino, rotina e comportamento para donos de Pastor Alemão — com método prático e bônus inclusos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/capa-ebook.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+
+  <!-- =========================================================
+       PIXEL / GA4 (OPCIONAL)
+       Cole seus códigos abaixo quando for configurar rastreamento
+  ========================================================== -->
+  <!-- Meta Pixel -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+    (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'SEU_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"/>
+  </noscript>
+  -->
+
+  <!-- Google Analytics (GA4) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
 </head>
 <body>
+  <!-- Top bar -->
   <div class="top-bar">
     <div class="container top-bar-content">
       <span class="badge">OFERTA ESPECIAL</span>
@@ -21,13 +61,14 @@
     </div>
   </div>
 
-  <header class="hero">
+  <!-- HERO -->
+  <header class="hero" id="topo">
     <div class="container hero-grid">
       <div class="hero-left">
         <div class="mini-badge">🐕 E-book principal + 2 bônus</div>
 
         <h1>
-          <span class="gold">MÉTODO PASTOR ALEMÃO</span><br />
+          <span class="gold">MÉTODO PASTOR ALEMÃO</span><br>
           <span class="white">OBEDIENTE</span>
         </h1>
 
@@ -40,7 +81,7 @@
         </p>
 
         <div class="hero-cta-row">
-          <a class="btn btn-primary" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+          <a class="btn btn-primary track-cta" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
             ✅ QUERO ACESSAR O MÉTODO AGORA
           </a>
           <a class="btn btn-secondary" href="#oferta">
@@ -58,22 +99,21 @@
 
       <div class="hero-right">
         <div class="product-panel">
-          <div class="mockup-card">
-            <div class="mockup-tag">Treino + Comportamento</div>
-            <div class="mockup-content">
-              <p class="mockup-kicker">Guia Prático para Donos de Pastor Alemão</p>
-              <h2>MÉTODO<br />PASTOR ALEMÃO<br />OBEDIENTE</h2>
-              <div class="mockup-footer">
-                <span class="chip green">✅ Principal + Bônus</span>
-                <span class="chip">PDF Digital</span>
-              </div>
+          <!-- CAPA REAL -->
+          <div class="book-showcase">
+            <div class="book-glow"></div>
+            <img src="assets/capa-ebook.jpg" alt="Capa do e-book Método Pastor Alemão Obediente" class="book-cover" />
+            <div class="book-badges">
+              <span class="chip green">✅ Principal + 2 bônus</span>
+              <span class="chip">PDF Digital</span>
+              <span class="chip">Acesso imediato</span>
             </div>
           </div>
 
           <div class="info-stack">
             <div class="info-card">
               <h3>📦 O que você recebe</h3>
-              <p>1 e-book principal + 2 bônus estratégicos para aumentar resultado e valor percebido.</p>
+              <p>1 e-book principal + 2 bônus práticos para aumentar resultado e valor percebido.</p>
             </div>
             <div class="info-card">
               <h3>🎯 Ideal para</h3>
@@ -83,6 +123,7 @@
               <h3>⚠️ Importante</h3>
               <p>Não é milagre. O resultado vem com aplicação consistente da rotina e dos comandos.</p>
             </div>
+
             <div class="tag-list">
               <span>Obediência</span>
               <span>Rotina</span>
@@ -96,6 +137,7 @@
     </div>
   </header>
 
+  <!-- DOR -->
   <section class="pain-section">
     <div class="container">
       <p class="section-mini">VOCÊ PASSA POR ISSO?</p>
@@ -122,7 +164,8 @@
     </div>
   </section>
 
-  <section class="solution-section">
+  <!-- SOLUÇÃO -->
+  <section class="solution-section" id="metodo">
     <div class="container">
       <p class="section-mini">A SOLUÇÃO</p>
       <h2 class="section-title">
@@ -133,34 +176,23 @@
       </p>
 
       <div class="benefit-grid">
-        <div class="benefit-card">
-          <h3>🏠 Criação correta</h3>
-          <p>Bases certas desde o início para evitar problemas futuros.</p>
-        </div>
-        <div class="benefit-card">
-          <h3>⚖️ Disciplina sem agressividade</h3>
-          <p>Firmeza e respeito para melhorar a comunicação com seu cão.</p>
-        </div>
-        <div class="benefit-card">
-          <h3>🎯 Obediência básica</h3>
-          <p>Comandos essenciais para o dia a dia com passo a passo.</p>
-        </div>
-        <div class="benefit-card">
-          <h3>🏡 Comportamento em casa</h3>
-          <p>Mais equilíbrio, menos bagunça e convivência melhor.</p>
-        </div>
-        <div class="benefit-card">
-          <h3>🚶 Passeio com controle</h3>
-          <p>Reduza puxões e torne os passeios mais tranquilos.</p>
-        </div>
-        <div class="benefit-card">
-          <h3>⚠️ Correção de erros comuns</h3>
-          <p>Evite atitudes que atrasam o treino e atrapalham a evolução.</p>
-        </div>
+        <div class="benefit-card"><h3>🏠 Criação correta</h3><p>Bases certas desde o início para evitar problemas futuros.</p></div>
+        <div class="benefit-card"><h3>⚖️ Disciplina sem agressividade</h3><p>Firmeza e respeito para melhorar a comunicação com seu cão.</p></div>
+        <div class="benefit-card"><h3>🎯 Obediência básica</h3><p>Comandos essenciais para o dia a dia com passo a passo.</p></div>
+        <div class="benefit-card"><h3>🏡 Comportamento em casa</h3><p>Mais equilíbrio, menos bagunça e convivência melhor.</p></div>
+        <div class="benefit-card"><h3>🚶 Passeio com controle</h3><p>Reduza puxões e torne os passeios mais tranquilos.</p></div>
+        <div class="benefit-card"><h3>⚠️ Correção de erros comuns</h3><p>Evite atitudes que atrasam o treino e atrapalham a evolução.</p></div>
+      </div>
+
+      <div class="center-cta">
+        <a class="btn btn-primary track-cta" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+          ✅ QUERO COMEÇAR AGORA
+        </a>
       </div>
     </div>
   </section>
 
+  <!-- O QUE APRENDE -->
   <section class="learn-section">
     <div class="container narrow">
       <h2 class="section-title">
@@ -179,6 +211,7 @@
     </div>
   </section>
 
+  <!-- MÓDULOS -->
   <section class="modules-section">
     <div class="container">
       <p class="section-mini">ESTRUTURA COMPLETA</p>
@@ -197,30 +230,38 @@
     </div>
   </section>
 
-  <section class="bonus-section">
+  <!-- BÔNUS -->
+  <section class="bonus-section" id="bonus">
     <div class="container">
       <div class="bonus-wrap">
-        <div class="bonus-header">
-          <p class="section-mini">BÔNUS INCLUSOS</p>
-          <h2 class="section-title">VOCÊ TAMBÉM RECEBE <span class="gold">2 BÔNUS PRÁTICOS</span></h2>
-        </div>
+        <p class="section-mini">BÔNUS INCLUSOS</p>
+        <h2 class="section-title">VOCÊ TAMBÉM RECEBE <span class="gold">2 BÔNUS PRÁTICOS</span></h2>
+        <p class="section-sub">Bônus para aumentar a percepção de valor e ajudar em pontos importantes da criação.</p>
 
         <div class="bonus-grid">
           <div class="bonus-card">
-            <h3>🎁 Bônus 1</h3>
+            <div class="bonus-icon">🎁</div>
+            <h3>BÔNUS 1</h3>
             <p><strong>XIXI E COCÔ NO LUGAR CERTO</strong></p>
-            <span>Treinamento prático para higiene e rotina</span>
+            <span>Treinamento prático para higiene e rotina.</span>
           </div>
+
           <div class="bonus-card">
-            <h3>🎁 Bônus 2</h3>
+            <div class="bonus-icon">🎁</div>
+            <h3>BÔNUS 2</h3>
             <p><strong>ENTENDENDO E PREVENINDO A DISPLASIA COXOFEMORAL</strong></p>
-            <span>Orientações importantes para cuidado e prevenção</span>
+            <span>Orientações importantes para cuidado e prevenção.</span>
           </div>
+        </div>
+
+        <div class="bonus-note">
+          ✅ Você recebe tudo de forma digital pela plataforma após a compra.
         </div>
       </div>
     </div>
   </section>
 
+  <!-- PARA QUEM É -->
   <section class="forwho-section">
     <div class="container">
       <h2 class="section-title">PARA QUEM <span class="gold">É ESSE MÉTODO?</span></h2>
@@ -249,20 +290,20 @@
     </div>
   </section>
 
+  <!-- PROVA / VALIDAÇÃO -->
   <section class="proof-section">
     <div class="container narrow">
       <div class="proof-card">
         <h2 class="section-title">MÉTODO <span class="gold">VALIDADO NA PRÁTICA</span></h2>
-        <p>
-          Esse material já foi vendido anteriormente e ajudou donos de Pastor Alemão.
-        </p>
+        <p>Material estruturado para donos de Pastor Alemão com foco em rotina, obediência e comportamento.</p>
         <p class="proof-highlight">
-          ✅ Produto validado por vendas reais e sem histórico de pedidos de reembolso no período informado.
+          ✅ Produto digital com oferta pronta para venda, com bônus estratégicos e entrega via Hotmart.
         </p>
       </div>
     </div>
   </section>
 
+  <!-- OFERTA -->
   <section class="offer-section" id="oferta">
     <div class="container narrow">
       <div class="offer-card">
@@ -271,19 +312,28 @@
         <h2 class="section-title">ACESSO COMPLETO AO <span class="gold">MÉTODO PASTOR ALEMÃO OBEDIENTE</span></h2>
 
         <div class="offer-features">
-          <div>✔ Conteúdo principal em PDF</div>
+          <div>✔ E-book principal em PDF</div>
           <div>✔ 2 bônus inclusos</div>
           <div>✔ Acesso imediato</div>
-          <div>✔ Suporte pela plataforma</div>
+          <div>✔ Pagamento seguro</div>
         </div>
 
-        <div class="price-box">
-          <p class="old-price">De <span>R$ 97,00</span></p>
-          <p class="new-price">R$ 47,00</p>
-          <p class="price-note">Pagamento único • acesso digital</p>
+        <div class="value-compare">
+          <div class="value-item">
+            <span class="value-label">Método Principal</span>
+            <span class="value-price">R$ 97,00</span>
+          </div>
+          <div class="value-item">
+            <span class="value-label">Bônus 1 + Bônus 2</span>
+            <span class="value-price">Incluídos</span>
+          </div>
+          <div class="value-total">
+            <span>Hoje por apenas</span>
+            <strong>R$ 47,00</strong>
+          </div>
         </div>
 
-        <a class="btn btn-primary btn-big" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+        <a class="btn btn-primary btn-big track-cta" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
           ✅ QUERO ACESSO IMEDIATO AO MÉTODO
         </a>
 
@@ -296,7 +346,22 @@
     </div>
   </section>
 
-  <section class="faq-section">
+  <!-- GARANTIA -->
+  <section class="guarantee-section">
+    <div class="container narrow">
+      <div class="guarantee-card">
+        <div class="guarantee-icon">🛡️</div>
+        <h2 class="section-title">GARANTIA DE <span class="gold">7 DIAS</span></h2>
+        <p>
+          Você compra com segurança. Se por qualquer motivo achar que o método não é para você,
+          pode solicitar reembolso dentro do prazo de garantia da plataforma.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section" id="faq">
     <div class="container narrow">
       <h2 class="section-title">PERGUNTAS <span class="gold">FREQUENTES</span></h2>
 
@@ -329,6 +394,7 @@
     </div>
   </section>
 
+  <!-- CTA FINAL -->
   <section class="final-cta">
     <div class="container narrow">
       <h2 class="section-title">
@@ -337,7 +403,8 @@
       <p class="section-sub">
         Dê o primeiro passo para transformar a convivência com seu cão.
       </p>
-      <a class="btn btn-primary btn-big" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+
+      <a class="btn btn-primary btn-big track-cta" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
         ✅ QUERO ACESSAR O MÉTODO AGORA
       </a>
     </div>
@@ -346,15 +413,30 @@
   <footer class="footer">
     <div class="container">
       <p>© <span id="year"></span> Método Pastor Alemão Obediente. Todos os direitos reservados.</p>
-      <p>Produto digital entregue pela plataforma Hotmart.</p>
+      <p>Produto digital com entrega via Hotmart.</p>
     </div>
   </footer>
 
+  <!-- CTA FIXO MOBILE -->
+  <div class="mobile-sticky-cta">
+    <div class="mobile-sticky-wrap">
+      <div class="mobile-price">
+        <small>Oferta</small>
+        <strong>R$ 47,00</strong>
+      </div>
+      <a class="mobile-btn track-cta" href="https://pay.hotmart.com/S80287983M?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+        Comprar agora
+      </a>
+    </div>
+  </div>
+
   <script>
     (function () {
+      // Ano
       const year = document.getElementById("year");
       if (year) year.textContent = new Date().getFullYear();
 
+      // Timer fake de urgência visual
       const timerEl = document.getElementById("timer");
       if (timerEl) {
         let h = 23, m = 59, s = 59;
@@ -366,6 +448,23 @@
           timerEl.textContent = [h, m, s].map(n => String(n).padStart(2, "0")).join(":");
         }, 1000);
       }
+
+      // Tracking CTA (se Meta Pixel/GA4 estiver configurado)
+      document.querySelectorAll(".track-cta").forEach(btn => {
+        btn.addEventListener("click", () => {
+          // Meta Pixel
+          if (typeof fbq !== "undefined") {
+            fbq("track", "InitiateCheckout");
+          }
+          // GA4
+          if (typeof gtag !== "undefined") {
+            gtag("event", "begin_checkout", {
+              currency: "BRL",
+              value: 47
+            });
+          }
+        });
+      });
     })();
   </script>
 </body>
